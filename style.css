@@ -129,7 +129,7 @@ header {
 
 .hero {
   margin-block: 1rem;
-  min-height: calc(100vh - 3rem);
+  /* min-height: calc(100vh - 3rem); */
 }
 
 .hero .text-content {
@@ -139,7 +139,7 @@ header {
 }
 .hero h1 {
   max-width: 400px;
-  font-size: 2.7rem;
+  font-size: 3rem;
   font-weight: 100;
   color: white;
   margin-bottom: 1.5rem;
@@ -166,7 +166,7 @@ header {
 .hero-card {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 4rem;
   justify-content: center;
   align-items: center;
   padding: 0 1rem;
@@ -188,6 +188,11 @@ header {
   margin-bottom: 1.5rem;
 }
 
+.info h4,
+.contact h4 {
+  font-size: 2.7rem;
+}
+
 /* Info  */
 
 .info {
@@ -199,7 +204,7 @@ header {
   margin-block: 1rem;
   color: white;
   background-color: rgb(58, 61, 61);
-  padding: 0 2rem;
+  padding: 1rem 2rem;
 }
 
 .info h4 {
